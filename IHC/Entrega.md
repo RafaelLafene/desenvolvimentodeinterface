@@ -1,5 +1,5 @@
-Avaliando Interfaces - CEUB
-Thiago - Nathan - Rafael
+## Avaliando Interfaces - CEUB
+## Thiago - Nathan - Rafael
 
 ## **Interface e Interação**
 A interface apresenta feedbacks interativos quando algum tópico é acessado ou concluído, alterando a cor ou a mensagem. No entanto, às vezes ocorrem erros: ao acessar um tópico sem ter terminado a tarefa, o sistema o marca incorretamente como concluído.
