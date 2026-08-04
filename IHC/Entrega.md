@@ -14,7 +14,9 @@ A paleta de cores tem boa sinergia e não agride a visão, e o modo escuro alivi
 Na percepção do usuário, as ações ocorrem com eficiência e sem longos tempos de espera, exceto pelo botão de QR Code, que, em alguns casos, demora a carregar.
 ## **ISO 9241**
 **Eficácia:** O site do CEUB apresenta uma boa eficácia. Suas principais funções são realizar o login, checar a matrícula, emitir boletos e acessar os materiais e informações das disciplinas do semestre (como salas de aula, professores, turmas e conteúdos). Porém, no celular, o sistema às vezes apresenta instabilidade de conexão e quedas, o que dificulta a obtenção da carteirinha digital para entrada e saída da instituição.
+
 **Eficiência:** O sistema exige uma quantidade reduzida de cliques para alcançar a informação desejada e raramente apresenta problemas de acesso no computador.
+
 **Satisfação:** O layout possui uma interface amigável e de fácil aprendizado. As informações não ficam escondidas e o uso é bastante intuitivo.
 ## **Ponto Positivo**
  A presença de ferramentas funcionais como Libras e comando de voz, aliada a um modo escuro que reduz o cansaço visual, demonstra um cuidado relevante com a inclusão e o conforto do usuário durante navegações prolongadas.
