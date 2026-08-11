@@ -1,14 +1,27 @@
-# 🪷 Avaliando Interfaces - CEUB 🪷
+# 🪷 Avaliando Interfaces — CEUB
+
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
+![Categoria](https://img.shields.io/badge/Categoria-UX%2FUI%20Audit-blue?style=for-the-badge)
+![Norma](https://img.shields.io/badge/Norma-ISO%209241-orange?style=for-the-badge)
+![Instituição](https://img.shields.io/badge/Institui%C3%A7%C3%A3o-CEUB-purple?style=for-the-badge)
 
 ## Thiago - Nathan - Rafael
 
 [Site Analisado - UniCEUB Portal Aluno](https://ea.uniceub.br/Painel)
 
-<img width="1887" height="902" alt="Captura de tela 2026-08-11 094155" src="https://github.com/user-attachments/assets/4ce0236e-1bbc-4f9e-872c-7eee0faa8d19" />
+<div align="center">
+  <img width="900" alt="Visão Geral do Painel do Aluno" src="https://github.com/user-attachments/assets/4ce0236e-1bbc-4f9e-872c-7eee0faa8d19" />
+  <p><em>Figura 1: Visão Geral do Painel Principal do Aluno.</em></p>
+</div>
 
-#
+<br />
 
-<img width="1868" height="504" alt="espaco-disciplinas" src="https://github.com/user-attachments/assets/bfb5a123-036c-42f4-ba4b-4e00ac13a20b" />
+<div align="center">
+  <img width="900" alt="Espaço de Disciplinas do Portal" src="https://github.com/user-attachments/assets/bfb5a123-036c-42f4-ba4b-4e00ac13a20b" />
+  <p><em>Figura 2: Estrutura do Espaço de Disciplinas e Atividades.</em></p>
+</div>
+
+---
 
 ## **Interface e Interação**
 A interface apresenta feedbacks interativos quando algum tópico é acessado ou concluído, alterando a cor ou a mensagem. No entanto, às vezes ocorrem erros: ao acessar um tópico sem ter terminado a tarefa, o sistema o marca incorretamente como concluído.
