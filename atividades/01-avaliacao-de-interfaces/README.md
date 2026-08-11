@@ -30,3 +30,6 @@ Na percepção do usuário, as ações ocorrem com eficiência e sem longos temp
  A presença de ferramentas funcionais como Libras e comando de voz, aliada a um modo escuro que reduz o cansaço visual, demonstra um cuidado relevante com a inclusão e o conforto do usuário durante navegações prolongadas.
 ## **Ponto Negativo**
  O sistema apresenta falhas de feedback e organização visual, como marcar tarefas como "concluídas" erroneamente, ocultar elementos de acessibilidade na tela e dificultar a localização da "Sala Online" para novos alunos.
+
+## **Conclusão Final:**
+O Portal apresenta uma ótima estrutura visual e um compromisso louvável com a inclusão, mas precisa ajustar falhas práticas da rotina acadêmica. Para evoluir, é fundamental corrigir os erros de feedback no progresso de tarefas, estabilizar o QR Code no mobile para acesso ao campus e destacar a 'Sala Online' para ajudar os novos alunos. Resolvendo esses gargalos de navegação e instabilidade, o sistema entregará uma experiência verdadeiramente fluída, confiável e funcional no nosso dia dia.
