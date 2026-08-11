@@ -2,6 +2,14 @@
 
 ## Thiago - Nathan - Rafael
 
+[Site Analisado - UniCEUB Portal Aluno](https://ea.uniceub.br/Painel)
+
+<img width="1887" height="902" alt="Captura de tela 2026-08-11 094155" src="https://github.com/user-attachments/assets/4ce0236e-1bbc-4f9e-872c-7eee0faa8d19" />
+
+#
+
+<img width="1868" height="504" alt="espaco-disciplinas" src="https://github.com/user-attachments/assets/bfb5a123-036c-42f4-ba4b-4e00ac13a20b" />
+
 ## **Interface e Interação**
 A interface apresenta feedbacks interativos quando algum tópico é acessado ou concluído, alterando a cor ou a mensagem. No entanto, às vezes ocorrem erros: ao acessar um tópico sem ter terminado a tarefa, o sistema o marca incorretamente como concluído.
 ## **Usabilidade**
