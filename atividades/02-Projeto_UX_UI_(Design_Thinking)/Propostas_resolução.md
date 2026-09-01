@@ -1,6 +1,6 @@
 ## Ideia 1
 
-**Nome da solução:** Recarga Inteligente
+**Nome da solução:** Recarga Inteligente Acompanhada
 
 **Descrição:**  
 Criar uma funcionalidade que permita ao usuário acompanhar em tempo real o status da sua recarga, informando claramente se o pagamento foi realizado, se a recarga está sendo processada ou se o saldo já está disponível para utilização.
@@ -30,7 +30,7 @@ Oferece maior transparência e segurança, reduzindo o risco de o usuário chega
 
 ## Ideia 2
 
-**Nome da solução:** Modo Embarque Seguro
+**Nome da solução:** Embarque Seguro
 
 **Descrição:**  
 Criar uma funcionalidade que permita ao usuário verificar rapidamente se o cartão de transporte está realmente pronto para ser utilizado antes de embarcar no ônibus ou acessar outro meio de transporte.
