@@ -1,4 +1,4 @@
-## Retomem o problema
+## O problema
 
 **Qual problema queremos resolver?**
 Queremos tornar a experiência de quem tem que utilizar o transporte público, menos desastrosa. Otimizando o sistema de pagamento, para que o passageiro não passe por constrangimentos desnecessários.
