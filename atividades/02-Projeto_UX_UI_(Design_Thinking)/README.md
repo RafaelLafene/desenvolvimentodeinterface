@@ -74,6 +74,7 @@ Escala de avaliação: **1 (Muito baixo)** a **5 (Muito alto)**.
 ## 6. Solução Escolhida
 
 *   **Solução Escolhida:** **Ideia 2 — Status Transparente & Guia de Validação**
+![Imagem Objetiva do Projeto](https://cdn.jornaldebrasilia.com.br/wp-content/uploads/2024/07/05112911/onibus.jpeg)
 
 ---
 
