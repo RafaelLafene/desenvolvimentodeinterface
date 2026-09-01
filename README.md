@@ -18,7 +18,7 @@ Repositório dedicado ao armazenamento de materiais, atividades práticas e proj
 | # | Atividade | Descrição | Link |
 |---|-----------|-----------|------|
 | 01 | Avaliação de Interfaces | Análise de interface, usabilidade, acessibilidade e ISO 9241 do Portal do Aluno | [Acessar](./atividades/01-avaliacao-de-interfaces/) |
-
+| 02 | Ideação | Projeto UX UI (Design Thinking) | [Acessar](./atividades/02-Projeto_UX_UI_(Design_Thinking)/) |
 ---
 
 ## 📁 Estrutura do Repositório
