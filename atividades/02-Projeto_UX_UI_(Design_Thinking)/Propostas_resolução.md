@@ -7,7 +7,6 @@ Queremos tornar a experiência de quem tem que utilizar o transporte público, m
 Usuários de transporte público.
 
 **Qual a principal necessidade desse usário?**
-
 Um sistema de pagamento que seja concluído e atualizado de forma mais eficiente.
 
 **Qual a principal dor identificada na jornada?**
