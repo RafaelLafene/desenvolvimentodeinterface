@@ -9,6 +9,7 @@ Repositório dedicado ao armazenamento de materiais, atividades práticas e proj
 - **Thiago**
 - **Nathan**
 - **Rafael**
+- **Camille**
 
 ---
 
