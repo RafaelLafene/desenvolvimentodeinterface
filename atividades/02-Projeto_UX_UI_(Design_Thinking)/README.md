@@ -80,8 +80,6 @@ Escala de avaliação: **1 (Muito baixo)** a **5 (Muito alto)**.
 
 ## 7. Justificativa da Escolha
 
-A **Ideia 2 (Status Transparente & Guia de Validação)** foi selecionada por apresentar a maior pontuação na matriz e responder diretamente ao principal gargalo identificado na jornada da **Camila**: o viés de comunicação do aplicativo atual.
-
 1. **Alinhamento com o Problema e Persona:** A dor principal não é apenas a demora técnica de sincronização, mas o fato de o app informar *"Pagamento Concluído"* sem avisar sobre a pendência do saldo na catraca. A Ideia 2 atua com transparência, eliminando a falsa expectativa da usuária.
 2. **Alta Viabilidade:** Não depende da troca de catracas da frota pública (como a Ideia 3) nem restringe usuários cujos aparelhos não possuem NFC (como a Ideia 1). A solução é 100% aplicável no escopo de software/interface.
 3. **Melhoria da Usabilidade e Prevenção de Erros:** Ao introduzir a linha do tempo de status, mapa de validadores próximos e notificações preventivas, a solução impede que o usuário seja pego de surpresa na catraca, garantindo previsibilidade e valor real à experiência.
