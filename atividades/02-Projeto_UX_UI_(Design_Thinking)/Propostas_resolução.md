@@ -26,3 +26,33 @@ Oferece maior transparência e segurança, reduzindo o risco de o usuário chega
 - Depende da integração com o sistema de transporte público;
 - Pode haver atrasos na atualização das informações;
 - Problemas de conexão podem impedir a atualização imediata do status.
+
+
+## Ideia 2
+
+**Nome da solução:** Modo Embarque Seguro
+
+**Descrição:**  
+Criar uma funcionalidade que permita ao usuário verificar rapidamente se o cartão de transporte está realmente pronto para ser utilizado antes de embarcar no ônibus ou acessar outro meio de transporte.
+
+**Como funciona?**  
+Antes de embarcar, o usuário acessa o Modo Embarque Seguro. O aplicativo verifica as informações disponíveis sobre o cartão e apresenta de forma simples o saldo, o status do cartão e possíveis recargas pendentes ou que ainda precisam ser validadas.
+
+**Qual dor da jornada resolve?**  
+Resolve o problema que acontece no momento do embarque, quando o usuário acredita que sua recarga foi concluída, mas descobre somente na catraca que o saldo ainda não está disponível.
+
+**Benefício para o usuário:**  
+Permite que o usuário tenha mais segurança antes de embarcar, reduzindo o risco de ter o cartão recusado, passar por constrangimentos ou perder a viagem.
+
+**Principais funcionalidades:**  
+- Consulta rápida do saldo;
+- Verificação do status do cartão;
+- Identificação de recargas pendentes;
+- Aviso sobre necessidade de validação;
+- Indicador "Pronto para embarcar";
+- Alertas sobre possíveis problemas.
+
+**Possíveis limitações:**  
+- Depende da disponibilidade de informações atualizadas do sistema de transporte;
+- Não garante o funcionamento do equipamento físico de validação;
+- Pode apresentar informações desatualizadas caso não exista sincronização adequada.
