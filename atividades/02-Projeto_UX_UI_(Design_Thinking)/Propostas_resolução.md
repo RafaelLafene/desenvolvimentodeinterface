@@ -1,3 +1,19 @@
+Retomem o problema
+
+Queremos tornar a experiência de quem tem que utilizar o transporte público, menos desastrosa. Otimizando o sistema de pagamento, para que o passageiro não passe por constrangimentos desnecessários.
+
+Usuários de transporte público.
+
+Um sistema de pagamento que seja concluído e atualizado de forma mais eficiente.
+
+Constrangimento ao ter a catraca bloqueada mesmo fazendo o pagamento no aplicativo, e ter sido aprovado.
+
+Ao tentar passar o cartão, logo após fazer o pagamento.
+
+Otimização do sistema de pagamento e atualização desse pagamento.
+
+
+
 ## Ideia 1
 
 **Nome da solução:** Recarga Inteligente Acompanhada
