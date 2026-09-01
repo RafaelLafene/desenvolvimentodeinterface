@@ -2,14 +2,19 @@
 
 **Qual problema queremos resolver?**
 Queremos tornar a experiência de quem tem que utilizar o transporte público, menos desastrosa. Otimizando o sistema de pagamento, para que o passageiro não passe por constrangimentos desnecessários.
+
 **Quem é o usuário?**
 Usuários de transporte público.
+
 **Qual a principal necessidade desse usário?**
 Um sistema de pagamento que seja concluído e atualizado de forma mais eficiente.
+
 **Qual a principal dor identificada na jornada?**
 Constrangimento ao ter a catraca bloqueada mesmo fazendo o pagamento no aplicativo, e ter sido aprovado.
+
 **Em qual momento essa dor acontece?**
 Ao tentar passar o cartão, logo após fazer o pagamento.
+
 **O que deveria melhorar na experiência?**
 Otimização do sistema de pagamento e atualização desse pagamento.
 
