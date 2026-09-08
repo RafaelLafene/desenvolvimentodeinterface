@@ -1,12 +1,4 @@
-# Atividade 03 — 🎨 Design de Interface, Hierarquia Visual e Acessibilidade
-
-**Disciplina:** Desenvolvimento de Interfaces / IHC — CEUB  
-**Integrantes:** Thiago dos Santos, Rafael Lafene, Nathan, Camille  
-**Projeto:** Aplicativo de Recarga de Transporte Público Local / Passe Estudantil  
-**Solução Foco:** Modo Embarque Seguro (Solução escolhida na Etapa 4)  
-
----
-
+# Atividade 03 — 🎨 Design de Interface, Hierarquia Visual e Acessibilidad
 ## 🎯 Objetivo da Atividade
 
 Aplicar os fundamentos de Interação Humano-Computador (IHC), psicologia do olhar (hierarquia visual) e diretrizes de acessibilidade universal (WCAG) na criação dos rascunhos de tela e protótipo inicial no Figma para a solução **Modo Embarque Seguro**.
