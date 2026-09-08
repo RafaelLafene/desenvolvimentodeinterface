@@ -19,6 +19,7 @@ Repositório dedicado ao armazenamento de materiais, atividades práticas e proj
 |---|-----------|-----------|------|
 | 01 | Avaliação de Interfaces | Análise de interface, usabilidade, acessibilidade e ISO 9241 do Portal do Aluno | [Acessar](./atividades/01-avaliacao-de-interfaces/) |
 | 02 | Ideação | Projeto UX UI (Design Thinking) | [Acessar](./atividades/02-Projeto_UX_UI_(Design_Thinking)/) |
+| 03 | Interface & Acessibilidade | Prototipagem no Figma, Psicologia da Visualização e Acessibilidade (WCAG) | [Acessar](./atividades/03-Design_de_Interface_e_Acessibilidade) |
 ---
 
 ## 📁 Estrutura do Repositório
