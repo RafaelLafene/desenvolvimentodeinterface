@@ -15,4 +15,197 @@ header {
   padding: 15px 0;
   position: sticky;
   top: 0;
+  z-index: 100;
+}
+
+.header-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.logo .author {
+  margin: 0;
+  font-size: 12px;
+  color: #cccccc;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* MAIN CONTAINER & CARDS (Módulo 2 & 3: Box Model & Containers) */
+.main-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333333;
+  margin-top: 0;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+/* Image Alignment inside card */
+.image-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-wrapper img {
+  border-radius: 8px;
+}
+
+/* Lists styling */
+.workflow-list,
+.resource-list {
+  padding-left: 20px;
+}
+
+.workflow-list li,
+.resource-list li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* TABLE STYLES (Módulo 3: Tabela e Layout) */
+.table-wrapper {
+  overflow-x: auto; /* Garante qe a tabela não quebre no celular */
+}
+
+#table-projetos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  text-align: left;
+}
+
+#table-projetos th {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 12px;
+}
+
+#table-projetos td {
+  padding: 12px;
+  border-bottom: 1px solid #dddddd;
+}
+
+#table-projetos tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+/* FORM STYLES (Módulo 2 & 3: Flexbos em Formulários) */
+.search-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form-group {
+  display: flex;
+  gap: 10px;
+}
+
+.form-group input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* FOOTER STYLES (Módulo 3: Rodapé) */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+address {
+  font-style: normal;
+  margin-top: 10px;
+}
+
+/* RESPONSIVE DESIGN (Módulo 2: Media Queries & Breakpoints) */
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    margin-top: 15px;
+  }
+
+  nav ul li {
+    margin: 0 10px;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  .form-group button {
+    width: 100%;
+  }
+
+  .card {
+    padding: 15px;
+  }
 }
