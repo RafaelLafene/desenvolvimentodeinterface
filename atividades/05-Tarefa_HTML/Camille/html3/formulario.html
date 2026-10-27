@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quanto você ama lontras? 🦦</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Central das Lontras S2 🦦</h1>
+        <nav>
+            <a href="index.html">Voltar ao início</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario">
+            <h2>💜 Quanto você ama as lontras?</h2>
+            <p>Queremos descobrir o tamanho do seu amor por essas criaturinhas fofas!</p>
+
+            <form id="formulario">
+                <label for="nome">Qual é o seu nome?</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required>
+
+                <label for="amor">De 1 a 1000, quanto você ama lontras?</label>
+                <input type="number" id="amor" name="amor" min="1" max="1000" step="1" placeholder="Ex.: 1000" required>
+
+                <button type="submit" class="botao">Enviar meu amor 💜</button>
+            </form>
+
+            <div id="resultado" aria-live="polite"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com carinho por Camille Cunha 💜 © 2026</p>
+    </footer>
+
+    <script>
+        const formulario = document.getElementById("formulario");
+        const resultado = document.getElementById("resultado");
+
+        formulario.addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            const nome = document.getElementById("nome").value.trim();
+            const amor = Number(document.getElementById("amor").value);
+            let mensagem;
+
+            if (!nome || !Number.isInteger(amor) || amor < 1 || amor > 1000) {
+                resultado.textContent = "Digite seu nome e um número inteiro de 1 a 1000.";
+                return;
+            }
+
+            if (amor <= 200) {
+                mensagem = "Você gosta um pouquinho das lontras! 🦦";
+            } else if (amor <= 500) {
+                mensagem = "Você gosta bastante das lontrinhas! 💜";
+            } else if (amor <= 800) {
+                mensagem = "Você é fã oficial das lontras! ✨";
+            } else if (amor < 1000) {
+                mensagem = "SEU AMOR POR LONTRAS É GIGANTE! 😭💜";
+            } else {
+                mensagem = "AMOR MÁXIMO! VOCÊ É UMA LENDA DAS LONTRAS! 👑🦦💜";
+            }
+
+            resultado.textContent = `Aaaah, ${nome}! Você deu ${amor}/1000! ${mensagem}`;
+        });
+    </script>
+</body>
+</html>

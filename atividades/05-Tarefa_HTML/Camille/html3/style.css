@@ -1,0 +1,227 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #faf7ff;
+    color: #39284b;
+    line-height: 1.7;
+}
+
+header {
+    background: #6d28d9;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+header h1 {
+    margin-bottom: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e9d5ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #ede9fe, #f5dfff);
+}
+
+.hero h2 {
+    color: #6d28d9;
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.imagem-lontra {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.botao {
+    display: inline-block;
+    background: #8b5cf6;
+    color: white;
+    padding: 13px 28px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #6d28d9;
+    transform: translateY(-3px);
+}
+
+section:not(.hero) {
+    max-width: 900px;
+    width: calc(100% - 32px);
+    margin: 35px auto;
+    padding: 30px;
+    background: white;
+    border: 1px solid #e9d5ff;
+    border-radius: 18px;
+}
+
+section h2 {
+    color: #7c3aed;
+    margin-bottom: 18px;
+}
+
+.sobre p {
+    margin-bottom: 15px;
+}
+
+.curiosidades ol {
+    padding-left: 25px;
+}
+
+.curiosidades li {
+    padding: 15px 10px;
+    border-bottom: 1px solid #eee5ff;
+}
+
+.curiosidades li:last-child {
+    border-bottom: none;
+}
+
+.curiosidades li::marker {
+    color: #8b5cf6;
+    font-weight: bold;
+}
+
+.curiosidades h3 {
+    color: #6d28d9;
+    margin-bottom: 5px;
+}
+
+.saiba-mais {
+    text-align: center;
+    padding: 35px 20px;
+    background: #ede9fe;
+    border-radius: 18px;
+}
+
+.saiba-mais p {
+    margin-bottom: 25px;
+}
+
+footer {
+    background: #4c1d95;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.formulario {
+    max-width: 600px;
+    width: calc(100% - 32px);
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border: 1px solid #e9d5ff;
+    border-radius: 20px;
+}
+
+.formulario h2,
+.formulario p {
+    text-align: center;
+}
+
+.formulario h2 {
+    color: #7c3aed;
+    margin-bottom: 15px;
+}
+
+.formulario p {
+    margin-bottom: 25px;
+}
+
+.formulario label {
+    display: block;
+    margin: 18px 0 8px;
+    font-weight: bold;
+    color: #6d28d9;
+}
+
+.formulario input {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd6fe;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.formulario input:focus {
+    border-color: #8b5cf6;
+    outline: none;
+}
+
+.formulario .botao {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+#resultado {
+    margin-top: 22px;
+    color: #6d28d9;
+    font-weight: bold;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.6rem;
+    }
+
+    nav {
+        gap: 12px;
+    }
+
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+
+    section:not(.hero),
+    .formulario {
+        padding: 22px;
+    }
+}
