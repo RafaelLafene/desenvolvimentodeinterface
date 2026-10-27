@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width", initial-scale="1.0">
+  <title>Git & Github Guide | Thiago Satnos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section with Navigation -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <h1>DevGuide</h1>
+        <p class="author">Created by Thiago Santos</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#workflow">Workflow</a></li>
+        <li><a hef="#commands">Commands</a></li>
+        <li><a href="resources">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-container">
+
+    <!-- Hero / Intro Section -->
+    <section id="about" class="card">
+      <h2>Essential Git & GitHub Quick Guide</h2>
+      <p>
+        <strong>Git</strong> is a distributed version control system widely used in software development and web engineering. It allow developers to track source code changes, create project restore points, and collaborate efficiently within programming teams.
+      </p>
+      <p>
+        <strong>GitHub</strong> is a cloud-based hosting platform for Git repositories. It provides a web-based graphical interface to manage code, peform code reviews, and showcase open-source projects, making it essential for building a professional developer portfolio in System Analysis and Development (ADS).
+      </p>
+      <div class="image-wrapper">
+        <img
+          src="https://cdn-icons-png.flaticon.com/256/25/25231.png"
+          alt="Official black GitHub Octocat logo"
+          width="120"
+          height="120"
+        >
+      </div>
+    </section>
+
+    <!-- Git Workflow Section -->
+    <section id="workflow" class="card">
+      <h2>Core Git Workflow</h2>
+      <p>Follow this standard four-step sequence to prepare and push your local code updates to a remote repository:</p>
+      <ol class="workflow-list">
+        <li>
+          <strong>git status</strong>: Checks the current state of your working directory and staging area (modified, untracked, or staged files).
+        </li>
+        <li>
+          <strong>git add .</strong>: Adds all updated and new files to the staging area, preparing them for the next commit.
+        </li>
+        <li>
+          <strong>git push origin main</strong>: Uploads all local branch commits to the remote GitHub repository.
+        </li>
+      </ol>
+    </section>
+
+    <!-- Essential Commands Table Section -->
+    <section id="commands" class="card">
+      <h2>Command Reference Cheat Sheet</h2>
+      <div class="table-wrapper">
+        <table id="table-projetos">
+          <thead>
+            <tr>
+              <th>Git Command</th>
+              <th>Description & Purpose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>git init</td>
+              <td>Initializes a brand-new Git repository in the current folder.</td>
+            </tr>
+            <tr>
+              <td>git clone [url]</td>
+              <td>Downloads a local copy of an existing remote GitHub repository.</td>
+            </tr>
+            <tr>
+              <td>git checkout -b [name]</td>
+              <td>Creates and immediately switches to a new development branch.</td>
+            </tr>
+            <tr>
+              <td>git pull origin main</td>
+              <td>Fetches and merges the latest changes from the remote repository.</td>
+            </tr>
+            <tr>
+              <td>git log</td>
+              <td>Displays the commit history log for the active branch.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Search Form Section -->
+    <section class="card">
+      <h2>Quick Command Search</h2>
+      <form action="/search" method="get" class="search-form">
+        <label for="comando">Search for a specific command:</label>
+        <div class="form-group">
+          <input
+            type="text"
+            id="comando"
+            name="comando"
+            placeholder="e.g., git pull"
+            required
+          >
+          <button type="submt">Search</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- External Links Section -->
+    <section id="resources" class="card">
+      <h2>Official Study Resources</h2>
+      <p>Explore official documentation to deepen your web development adn version control knowledge:</p>
+      <ul class="resource-list">
+        <li>
+          <a href="https://git-scm.com/doc" target="_blank">Official Git Documentation</a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML Guide</a>
+        </li>
+        <li>
+          <a href="https://docs.github.com" target="_blank">GitHub Official Documentation</a>
+        </li>
+      </ul>
+    </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Thiago Santos. All rights reserved.</p>
+        <p>Systems Analysis and Development (ADS) - Web Interface Development</p>
+        <address>
+          Contact: <a href="mailto:thiagoantos@gmail.com">thiagoantos@gmail.com</a>
+        </address>
+      </div>
+    </footer>
+  </body>
+  </html>
