@@ -21,6 +21,7 @@ Repositório dedicado ao armazenamento de materiais, atividades práticas e proj
 | 02 | Ideação | Projeto UX UI (Design Thinking) | [Acessar](./atividades/02-Projeto_UX_UI_(Design_Thinking)/) |
 | 03 | Interface & Acessibilidade | Prototipagem no Figma, Psicologia da Visualização e Acessibilidade (WCAG) | [Acessar](./atividades/03-Design_de_Interface_e_Acessibilidade) |
 | 04 | Apresentação Slides | Apresentação do projeto e demonstração de protótipos visuais | [Acessar](./atividades/04-Apresentação_Slides) |
+| 05 | Tarefas HTML & Paginas | Paginas e Exercícios HTML & CSS | [Acessar](./atividades/05-Tarefa_HTML) |
 ---
 
 ## 📁 Estrutura do Repositório
