@@ -7,7 +7,7 @@ Repositório dedicado ao armazenamento de materiais, atividades práticas e proj
 ## 👨‍💻 Integrantes do Grupo
 
 - **Thiago** - [Acesse o Repositório Pessoal Completo](https://github.com/oThiagoDSS/ui-development-coursework)
-- **Nathan** - Repositório Pessoal Indisponível
+- **Nathan** - [Acesse o Repositório Pessoal Completo](https://github.com/NathanAA3/Meu_Primeiro_Site)
 - **Rafael** - Host do Repositório
 - **Camille** - Repositório Pessoal Indisponível
 
