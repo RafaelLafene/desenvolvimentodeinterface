@@ -1,3 +1,3 @@
-# Site de Nathan Victor©
+# Site de Nathan Victor ©
 
 ## https://github.com/NathanAA3/Meu_Primeiro_Site
