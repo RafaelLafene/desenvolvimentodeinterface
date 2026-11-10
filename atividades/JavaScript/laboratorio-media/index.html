@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratório 2 — Calculadora de média</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <span class="tag">CEUB · JavaScript · Aula 2</span>
+    <h1>Calculadora de média</h1>
+    <p class="desc">Digite três notas de 0 a 10. Média 6 ou mais: aprovado.</p>
+    <label for="n1">Nota 1</label><input id="n1" type="number" min="0" max="10" step="any" placeholder="Ex.: 8">
+    <label for="n2">Nota 2</label><input id="n2" type="number" min="0" max="10" step="any" placeholder="Ex.: 7">
+    <label for="n3">Nota 3</label><input id="n3" type="number" min="0" max="10" step="any" placeholder="Ex.: 9">
+    <button id="calcular" type="button">Calcular média</button>
+    <p id="resultado" role="status" aria-live="polite">O resultado aparecerá aqui.</p>
+    <p class="small">O programa identifica o campo vazio ou a nota inválida.</p>
+  </main>
+</body>
+</html>
