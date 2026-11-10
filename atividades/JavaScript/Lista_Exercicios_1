@@ -1,0 +1,100 @@
+let idade = 22;
+idade =23;
+
+const curso="ADS"
+
+console.log(idade);
+console.log(curso);
+
+console.log("Olá, estudante de ADS!");
+console.log("Meu primeiro JavaScript.");
+
+const nome= "Rafael";
+const idade2= 23;
+
+let pontos= 10;
+pontos = 25;
+console.log("Pontos:",pontos)
+
+const texto= "Desenvolvimento de interface";
+const inteiro= 12;
+const decimal= 20.13;
+const booleano= true
+
+console.log(typeof texto);
+console.log(typeof inteiro);
+console.log(typeof decimal);
+console.log(typeof booleano);
+
+const numero1= 10
+const numero2= 15
+const soma= numero1+numero2;
+const subtracao= numero1-numero2;
+const mutiplicacao= numero1*numero2;
+const divisao= numero1/numero2
+console.log("Soma=",soma);
+console.log("Subtração=",subtracao);
+console.log("mutiplicação=",mutiplicacao);
+console.log("Divisão=",divisao);
+
+const precoUnitario = 35.00;
+const quantidade = 4;
+const totalCompra = precoUnitario * quantidade;
+console.log("Total da compra: R$", totalCompra);
+
+const precoProduto = 200.00;
+const percentualDesconto = 10;
+const valorDesconto = (precoProduto * percentualDesconto) / 100;
+const precoFinal = precoProduto - valorDesconto;
+
+console.log("Valor do desconto:", valorDesconto);
+console.log("Preço final:", precoFinal);
+
+const nota1 = 7;
+const nota2 = 8;
+const nota3 = 9;
+const media = (nota1 + nota2 + nota3) / 3;
+console.log("Média das notas:", media);
+
+console.log("Resto de 10 / 3:", 10 % 3); // 1
+console.log("Resto de 15 / 4:", 15 % 4); // 3
+console.log("Resto de 20 / 5:", 20 % 5); // 0
+
+let saldo = 500.00;
+saldo += 150.00;
+saldo -= 80.00;
+console.log("Saldo final: R$", saldo);
+
+const idadePessoa = 17;
+console.log("idade >= 18:", idadePessoa >= 18);   // false
+console.log("idade < 18:", idadePessoa < 18);     // true
+console.log("idade === 17:", idadePessoa === 17); // true
+
+console.log(10 == "10");  // true: compara apenas o valor (efetua conversão implícita de tipo)
+console.log(10 === "10"); // false: compara o valor E o tipo de dado (number !== string)
+
+const idadeUsuario = 20;
+const cadastroAtivo = true;
+const podeAcessar = idadeUsuario >= 18 && cadastroAtivo;
+console.log("Acesso permitido:", podeAcessar); // true
+
+const valorCompra = 100.00;
+const clienteVip = true;
+const temFreteGratis = valorCompra >= 150.00 || clienteVip;
+console.log("Frete gratuito:", temFreteGratis); // true
+
+const nomeProduto = "Teclado";
+const precoUnitarioItem = 80.00;
+const quantItem = 3;
+const descontoPercentual = 10;
+
+const subtotal = precoUnitarioItem * quantItem;
+const descontoTotal = (subtotal * descontoPercentual) / 100;
+const valorFinalCompra = subtotal - descontoTotal;
+
+console.log("Produto:", nomeProduto);
+console.log("Preço unitário:", precoUnitarioItem);
+console.log("Quantidade:", quantItem);
+console.log("Subtotal:", subtotal);
+console.log("Desconto (" + descontoPercentual + "%): ", descontoTotal);
+console.log("Valor final:", valorFinalCompra);
