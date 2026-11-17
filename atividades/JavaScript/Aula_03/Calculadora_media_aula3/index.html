@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Média</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main class="calculadora">
+    <h1 id="titulo">Calculadora de Média</h1>
+    <p class="instrucoes">Informe o nome do estudante e três notas de 0 a 10.</p>
+
+    <form>
+      <div class="campo">
+        <label for="nome">Nome do estudante</label>
+        <input id="nome" type="text">
+      </div>
+
+      <div class="notas">
+        <div class="campo">
+          <label for="nota1">Nota 1</label>
+          <input id="nota1" type="number" min="0" max="10" step="any">
+        </div>
+        <div class="campo">
+          <label for="nota2">Nota 2</label>
+          <input id="nota2" type="number" min="0" max="10" step="any">
+        </div>
+        <div class="campo">
+          <label for="nota3">Nota 3</label>
+          <input id="nota3" type="number" min="0" max="10" step="any">
+        </div>
+      </div>
+
+      <button id="calcular" type="button">Calcular</button>
+    </form>
+
+    <p id="resultado" aria-live="polite"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
