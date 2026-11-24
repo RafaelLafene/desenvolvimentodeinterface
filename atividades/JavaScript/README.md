@@ -21,8 +21,8 @@ Atividades sobre estruturas condicionais e exercícios práticos em JavaScript.
 - `exercicio-03-acesso.js` — Verificação de acesso.
 - `Lista_exercicios_2` — Lista de exercícios da aula.
 - `Aula_02_Todos_Exercicios` — Exercícios reunidos em uma pasta.
-- `laboratorio-idade` — Laboratório relacionado à idade.
-- `laboratorio-media` — Laboratório relacionado ao cálculo de média.
+- `laboratorio-idade` — Laboratório relacionado à atividade de  idade.
+- `laboratorio-media` — Laboratório relacionado à atividade de cálculo de média.
 
 ### [Aula 03](./Aula_03)
 
