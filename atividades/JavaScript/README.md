@@ -1,6 +1,6 @@
 # Atividades de JavaScript
 
-Esta pasta reúne as atividades práticas desenvolvidas durante as aulas de JavaScript.
+Esta pasta reúne as atividades práticas desenvolvidas durante as aulas de Desenvolvimento de interfaces.
 
 ## Estrutura das aulas
 
